@@ -627,13 +627,12 @@ namespace MEditor
 		#region MEditor links
 		private void markdown语法介绍ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			//showSyntax("https://github.com/5d13cn/MEditor/blob/master/resoucesdocs/syntax.md");
-			showSyntax("http://www.cnblogs.com/yihuiso/archive/2011/04/13/markdown.html");
+            showSyntax("http://wowubuntu.com/markdown/");
 		}
 
 		private void markdown语法介绍精简版ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			showSyntax("http://www.cnblogs.com/yihuiso/archive/2011/04/13/minimarkdown.html");
+            showSyntax("http://daringfireball.net/projects/markdown/dingus");
 		}
 
 		private void markdown语法介绍二ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -647,11 +646,12 @@ namespace MEditor
 		}
 		private void 关于MEditorToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			showSyntax("https://github.com/5d13cn/MEditor/blob/master/resoucesdocs/about.md");
+			//showSyntax("https://github.com/5d13cn/MEditor/blob/master/resoucesdocs/about.md");
+            MessageBox.Show("修改自https://github.com/sunminghong/MEditor\n\n添加插入表格工具 by fatway");
 		}
 		private void mEditor快捷键ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			showSyntax("https://github.com/5d13cn/MEditor/blob/master/resoucesdocs/shortcut.md");
+			//showSyntax("https://github.com/5d13cn/MEditor/blob/master/resoucesdocs/shortcut.md");
 		}
 		private void mEditor网站ToolStripMenuItem_Click(object sender, EventArgs e)
 		{
@@ -711,5 +711,34 @@ namespace MEditor
 			//webBrowser1.Navigate(url);
 			//}
 		}
+
+        private void 在线编辑器一ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            showSyntax("http://www.ostools.net/markdown");
+        }
+
+        private void 在线编辑器ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            showSyntax("http://mahua.jser.me/");
+        }
+
+        private void 插入表格ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTable tab = new frmTable();
+
+            if (tab.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                TextEditor rtb = meditorManager.GetTextBox();
+                //string dat = System.DateTime.Now.ToString();
+                rtb.Document.Insert(rtb.CaretOffset, Utils.tableText);
+
+                Utils.tableText = "";
+            }
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            this.插入表格ToolStripMenuItem_Click(sender, e);
+        }
 	}
 }

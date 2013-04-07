@@ -178,7 +178,8 @@ namespace MEditor
 			return path;
 		}
 
-	
-		
+
+
+        public static string tableText = "";
 	}
 }

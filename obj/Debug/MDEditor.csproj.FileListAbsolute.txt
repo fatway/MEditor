@@ -20,3 +20,17 @@ D:\dodowork\TempProject\Csharp\dodola-MEditor-dc33bce\obj\Debug\GenerateResource
 D:\dodowork\TempProject\Csharp\dodola-MEditor-dc33bce\obj\Debug\GenerateResource.write.5.tlog
 D:\dodowork\TempProject\Csharp\dodola-MEditor-dc33bce\obj\Debug\GenerateResource.read.6.tlog
 D:\dodowork\TempProject\Csharp\dodola-MEditor-dc33bce\obj\Debug\GenerateResource.write.6.tlog
+D:\Private\VS.NET_Projects\MEditor\exeoutput\MDEditor.exe.config
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MDEditor.exe
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MDEditor.pdb
+D:\Private\VS.NET_Projects\MEditor\exeoutput\MDEditor.exe
+D:\Private\VS.NET_Projects\MEditor\exeoutput\MDEditor.pdb
+D:\Private\VS.NET_Projects\MEditor\exeoutput\ICSharpCode.AvalonEdit.dll
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MDEditor.csprojResolveAssemblyReference.cache
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.frmMain.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.frmTable.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.Properties.Resources.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.frmCss.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.GoToLineDialog.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MEditor.frmReplace.resources
+D:\Private\VS.NET_Projects\MEditor\obj\Debug\MDEditor.csproj.GenerateResource.Cache
